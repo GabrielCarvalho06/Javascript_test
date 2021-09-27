@@ -7,15 +7,40 @@
     <title>Exercicio Javascript</title>
     <style>
         body{
-            background-color:white;
+            background-color: black;
+            color: white;
         }
     </style>
-    <script src = "script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <center><h1>Olá mundo!!</h1></center>
+    <!--
+    <center><h1 id="titulo">Olá mundo!!</h1></center>
     <script>
         document.write('Testando 1, 2, 3...')
     </script>
+    <div id ="exemplo">Gabriel Carvalho</div>
+    
+    <button class="preto" onclick="trocar()">Botão</button>
+
+    <div class = "lista">
+        Pedro, João, Maria
+    </div>
+
+    <div class="lista">
+        Arroz, feijão, macarrão
+    </div>
+    <input id="campo" type="text" name="usuario" value="Nome do usuário"/>
+    -->
+    
+    <img src = "images/papagaio.jpeg"  data-imagem = "papagaio" class = "imagem"/><br/>
+
+    <button onclick="trocarImagem('papagaio.jpeg', 'papagaio')">Papagaio</button>
+    <button onclick="trocarImagem('vista1.jpg', 'vista')">Vista</button>
+    <button onclick="trocarImagem('raposa.jpg', 'raposa')">Raposa</button>
+
+    <button onclick="pegarImagem()">Qual é a imagem?</button>
+
+    <script src = "funcoes.js"></script>
 </body>
 </html>
