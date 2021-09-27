@@ -9,7 +9,7 @@ window.alert("Teste de mensagem com Window");
 
 //Mensagem para o usuário em forma de console
 
-console.log("A mensagem exibida será feita no console");
+console.log("A mensagem exibida será feita pelo console");
 
 
 
