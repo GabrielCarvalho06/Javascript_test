@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+    <center><h1 id="titulo" onmouseover="alert('Passou o mouse')">Olá mundo!!</h1></center>
     <!--
-    <center><h1 id="titulo">Olá mundo!!</h1></center>
     <script>
         document.write('Testando 1, 2, 3...')
     </script>
@@ -49,10 +49,13 @@
     </div>
     </center>
 
-    <div onclick="subirTela()" class="scrollbutton">
+    <div onclick="subirTela()" class="scrollbutton"></div>
+    <button onclick="document.getElementById('titulo').innerHTML = 'Texto 2'">Clique em mim</button>
+    <button onclick="clicou()" onclick="this.innerHTML='Clicou'">Clique em mim</button>
+    <button onclick="this.innerHTML='Clicou'">Clique em mim</button>
 
-    </div>
 
-    <script src = "scroll_suave.js"></script>
+
+    <script src = "evento_clique.js"></script>
 </body>
 </html>
