@@ -12,4 +12,11 @@ let carro = {
     }
 };
 
-carro.ligar();
+//array com objetos
+let carros2 = [
+    {nome:'Fiat', modelo:'Palio'},
+    {nome:'Fiat', modelo:'Uno'},
+    {nome:'Toyota', modelo:'Corolla'},
+    {nome:'Ferrari', modelo: 'Spider'}
+];
+ console.log(carros2[1].modelo);
