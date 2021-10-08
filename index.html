@@ -7,8 +7,8 @@
     <title>Exercicio Javascript</title>
     <style>
         body{
-            background-color: black;
-            color: white;
+            background-color: #444;
+            color: #888;
         }
     </style>
     <link rel="stylesheet" href="style.css"/>
@@ -48,14 +48,22 @@
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </div>
     </center>
-
+    <!--
     <div onclick="subirTela()" class="scrollbutton"></div>
     <button onclick="document.getElementById('titulo').innerHTML = 'Texto 2'">Clique em mim</button>
     <button onclick="clicou()" onclick="this.innerHTML='Clicou'">Clique em mim</button>
     <button onclick="this.innerHTML='Clicou'">Clique em mim</button>
+    -->
 
-
-
-    <script src = "evento_clique.js"></script>
+    <center><div id="telefone">(21) 2710-6093</div>
+    <button onclick="mostrar(this)">Mostrar telefone</button></center>
+    <div class="container">
+        <div class="button">
+        <button onclick = "vermelho()">Vermelho</button>
+        <button onclick = "verde()">Verde</button>
+        <button onclick = "azul()">Azul</button>
+        </div>
+    </div>
+    <script src = "mudança_estilos.js"></script>
 </body>
 </html>

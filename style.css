@@ -5,6 +5,10 @@
     border: 1px solid grey;
 }
 
+#titulo{
+    color: white;
+}
+
 .vermelho{
     background-color: red;
 }
@@ -21,6 +25,10 @@
     background-color: black;
 }
 
+.oculto {
+    display: none;
+}
+
 .imagem {
     height: 400px;
     width: 590px;
@@ -28,7 +36,7 @@
 
 .texto {
     width: 200px;
-    height: 9000px;
+    height: 400px;
     overflow: auto;
 }
 
@@ -43,4 +51,21 @@
     z-index: 999;
     cursor: pointer;
     display: none;
+}
+.container {
+    margin-top: -300px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+}
+
+#telefone {
+    display: none;
+    margin-top: 50px;
+    color: white;
 }
