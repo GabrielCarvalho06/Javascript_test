@@ -119,25 +119,3 @@ let pessoa = lista.find(function(item) {
 });
 res = pessoa;
 console.log(pessoa);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
