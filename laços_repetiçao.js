@@ -1,4 +1,4 @@
-let html = '<ul>';
+/*let html = '<ul>';
 let carros = ['Ferrari', 'Toyota', 'Fiat', 'Audi', 'Lamborgini'];
 
 for (let i in carros) {
@@ -6,5 +6,17 @@ for (let i in carros) {
 }
 
 html += '</ul>'
+
+document.getElementById("demo").innerHTML = html;
+*/
+
+let html = '';
+
+let c = 0;
+
+while(c <= 10) {
+    html += "Número: "+c+"<br/>"
+    c++;
+}
 
 document.getElementById("demo").innerHTML = html;
